@@ -68,7 +68,7 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
 ## 🚀 Getting Started
 
 ### Quick Start (Live Version)
-Simply visit the **[Live Demo](https://dynamic-weather-dashboard.vercel.app)** - no installation required!
+Simply visit the **[Live Demo](https://dynamic-weather-dashboard-chi.vercel.app/)** - no installation required!
 
 ### Local Development
 
@@ -81,8 +81,8 @@ Simply visit the **[Live Demo](https://dynamic-weather-dashboard.vercel.app)** -
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/dynamic-weather-dashboard.git
-   cd dynamic-weather-dashboard
+   git clone https://github.com/AradhyaRay05/Dynamic_Weather_Dashboard.git
+   cd Dynamic_Weather_Dashboard
    ```
 
 2. **Get your API Keys**
@@ -221,12 +221,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/dynamic-weather-dashboard/issues) page
-2. Create a new issue with detailed information about the problem
-3. Include browser version, OS, and screenshots if applicable
+1. Create a new issue with detailed information about the problem
+2. Include browser version, OS, and screenshots if applicable
 
 ---
 
-Made with ❤️ using vanilla HTML, CSS & JavaScript
+## 📬 Contact
 
-🌐 **[Live Demo](https://dynamic-weather-dashboard.vercel.app)** | ⭐ Star this repo if you find it helpful!
+<p>
+  <a href="mailto:aradhyaray99@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="www.linkedin.com/in/rayaradhya"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/AradhyaRay05"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+---
+
+Thanks for visiting! | ⭐ Star this repo if you find it helpful!  Feel free to explore my other repositories and connect with me. 🚀
