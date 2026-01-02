@@ -4,7 +4,12 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
 
 ![WeatherPulse Dashboard](https://img.shields.io/badge/WeatherPulse-Dynamic%20Weather%20Dashboard-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-1.0.0-orange)
+![Version](https://img.shields.io/badge/version-2.0.0-orange)
+![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+
+## 🔗 Live Demo
+
+**[🌐 View Live Dashboard](https://dynamic-weather-dashboard.vercel.app)**
 
 ## ✨ Features
 
@@ -48,10 +53,11 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Deployment**: [Vercel](https://vercel.com/)
 - **APIs**:
-  - [OpenWeatherMap API](https://openweathermap.org/api) - Weather data
-  - [OpenWeatherMap Geocoding API](https://openweathermap.org/api/geocoding-api) - City to coordinates
-  - [OpenWeatherMap Air Pollution API](https://openweathermap.org/api/air-pollution) - AQI data
+  - [OpenWeatherMap API](https://openweathermap.org/api) - Weather data, forecasts, geocoding
+  - [WAQI (World Air Quality Index)](https://aqicn.org/api/) - Real-time ground station AQI data
+  - [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) - Voice search
   - [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) - User location
 - **Libraries**:
   - [Chart.js](https://www.chartjs.org/) - Weather trend charts
@@ -61,11 +67,17 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Quick Start (Live Version)
+Simply visit the **[Live Demo](https://dynamic-weather-dashboard.vercel.app)** - no installation required!
+
+### Local Development
+
+#### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - An OpenWeatherMap API key (free tier available)
+- Optional: WAQI API token for accurate AQI data
 
-### Installation
+#### Installation
 
 1. **Clone the repository**
    ```bash
@@ -73,50 +85,56 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
    cd dynamic-weather-dashboard
    ```
 
-2. **Get your API Key**
-   - Sign up at [OpenWeatherMap](https://openweathermap.org/api)
-   - Generate a free API key
-   - The free tier includes:
-     - Current weather data
-     - 5-day/3-hour forecast
-     - Air pollution data
-     - Geocoding
+2. **Get your API Keys**
+   - **OpenWeatherMap**: Sign up at [OpenWeatherMap](https://openweathermap.org/api) (free)
+   - **WAQI** (optional): Get token at [WAQI Data Platform](https://aqicn.org/data-platform/token/)
 
-3. **Configure the API Key**
-   - Open `app.js`
-   - Replace `YOUR_API_KEY_HERE` with your actual API key:
+3. **Configure the API Keys**
+   Open `app.js` and update the keys:
    ```javascript
-   const API_KEY = 'your_actual_api_key_here';
+   const API_KEY = 'your_openweathermap_api_key';
+   const WAQI_TOKEN = 'your_waqi_token'; // Optional
    ```
 
 4. **Run the Application**
-   - Open `index.html` in your browser
-   - Or use a local server:
    ```bash
    # Using Python
    python -m http.server 8000
    
-   # Using Node.js (npx)
+   # Using Node.js
    npx serve
    
-   # Using VS Code Live Server extension
+   # Using VS Code Live Server
    # Right-click index.html → Open with Live Server
    ```
 
-5. **Access the Dashboard**
-   - Navigate to `http://localhost:8000` (or your server address)
-   - Allow location access for auto-detection, or search for a city
+5. **Deploy to Vercel**
+   ```bash
+   npx vercel --prod
+   ```
 
 ## 📁 Project Structure
 
 ```
 Dynamic Weather Dashboard/
 ├── index.html          # Main HTML structure
-├── style.css           # Complete styling with themes
-├── app.js              # All JavaScript functionality
+├── style.css           # Complete styling with themes & animations (~1900 lines)
+├── app.js              # All JavaScript functionality (~2050 lines)
 ├── README.md           # Documentation
 └── .gitignore          # Git ignore file
 ```
+
+## 🖼️ Screenshots
+
+### Light Mode
+- Clean, professional glassmorphism design
+- Dynamic weather-based backgrounds
+- Smooth animations and micro-interactions
+
+### Dark Mode
+- Eye-friendly dark theme
+- Preserved visual hierarchy
+- Reduced eye strain for night usage
 
 ## 🎯 Usage Guide
 
@@ -208,6 +226,6 @@ If you encounter any issues or have questions:
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ using vanilla HTML, CSS & JavaScript
 
-⭐ Star this repo if you find it helpful!
+🌐 **[Live Demo](https://dynamic-weather-dashboard.vercel.app)** | ⭐ Star this repo if you find it helpful!

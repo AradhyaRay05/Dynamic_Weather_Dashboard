@@ -1,9 +1,9 @@
-const API_KEY = ''; // OpenWeatherMap API key
+const API_KEY = '6dcd40944831c722d09ab65ce3115d7'; // OpenWeatherMap API key
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
 // Get your free token at: https://aqicn.org/data-platform/token/
-const WAQI_TOKEN = ''; // Replace with your WAQI token for production use
+const WAQI_TOKEN = '4d5a4720e050056f80696ec9988df9aa8ceec4fb'; // Replace with your WAQI token for production use
 const WAQI_URL = 'https://api.waqi.info';
 
 // ===== State Management =====
