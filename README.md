@@ -121,6 +121,7 @@ Dynamic Weather Dashboard/
 ├── style.css           # Complete styling with themes & animations (~1900 lines)
 ├── app.js              # All JavaScript functionality (~2050 lines)
 ├── README.md           # Documentation
+├── LICENSE             # MIT License
 └── .gitignore          # Git ignore file
 ```
 
