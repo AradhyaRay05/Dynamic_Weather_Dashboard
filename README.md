@@ -9,7 +9,7 @@ A comprehensive, feature-rich weather dashboard built with vanilla HTML, CSS, an
 
 ## 🔗 Live Demo
 
-**[🌐 View Live Dashboard](https://dynamic-weather-dashboard.vercel.app)**
+**(https://dynamic-weather-dashboard.vercel.app)**
 
 ## ✨ Features
 
